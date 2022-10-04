@@ -1,0 +1,36 @@
+<div class="col-lg-1"></div>
+	<div class="col-lg-8 col3">
+		<h1 class="text-center"><b>Please Confirm Your Payment</b></h1>
+		<br>
+		<form method="post">
+
+		<label>Invoice No:</label><br>
+        <input type="text" name="n1" placeholder="" required="required" class="form-control"><br>
+		
+		<label>Amount sent:</label><br>
+		<input type="number" name="n2" placeholder="" required="required" class="form-control">
+		<br>
+		
+		<label>Select Payment mode:</label><br>
+		<select name="m1" required="required" class="form-control">
+			<option selected="selected" disabled="disabled">Select Payment mode</option>
+            <option value="bank transaction">bank transaction</option>
+            <option value="apne transaction">apne transaction</option>
+            <option value="apke transaction">apke transaction</option>
+
+		</select>
+		<br>
+		
+		<label>Transaction/Refrence ID:</label><br>
+		<input name="n3" type="text" placeholder="" required="required" class="form-control"><br>
+		
+		<label>Easy Paisa/Omni code:</label><br>
+		<input name="n4" type="text" placeholder="" required="required" class="form-control"><br>
+		
+		<label>Payment Code:</label><br>
+		<input name="n5" type="text" placeholder="" required="required" class="form-control"><br>
+		
+		<center><input name="b1" type="submit" class="btn btn-primary" value="Confirm Payment"></center>
+		<br><br>
+	</form>
+	</div>
