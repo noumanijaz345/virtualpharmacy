@@ -1,0 +1,43 @@
+.container-fluid{
+	width: 100%;
+}
+
+.ul1 li a {
+color: gray;}
+.ul1 li a:hover{
+text-decoration: none;
+cursor:arrow;
+}
+
+.ul1 li{
+	display: block;
+	padding: 15px 0px;
+
+}
+
+
+
+.a{
+font-size: 45px;
+}
+.a1{margin-top: -25px;}
+.v1{color:blue;}
+.v2{color:gray;}
+.v3{color:orange;}
+.v4{color:red;}
+
+.p1{font-size:20px ;}
+
+.t1{
+   width:60%;
+
+
+}
+/*.navbar{
+	position: fixed;
+	top: 0px;
+}*/
+
+
+
+
